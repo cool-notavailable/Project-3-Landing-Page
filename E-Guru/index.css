@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+/* ============
+    CSS RESET   
+ ================ */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+}
+:root {
+  --accent-color: rgb(255, 85, 0);
+ 
+/* ============
+ UTILITY CLASS  
+ ================ */
+.container {
+  max-width: 1182px;
+  padding: 0 5rem;
+}
+.flex {
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: var(--accent-color);
+  cursor: pointer;
+}
+
+/* navigation bar */
+.nav-items {
+  margin-top: 0.5rem;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  align-items: center;
+}
+.navimage img {
+  height: 3.5rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+}
+.navlinks a {
+  padding: 0 2rem;
+  font-size: 1.2rem;
+}
+.navbutton > button {
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.navbutton > button:hover {
+  color: white;
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+/* main */
+.sectionContent {
+  padding-top: 2rem;
+  height: 27rem;
+}
+.sectionInformation {
+  width: 55%;
+  position: relative;
+}
+.sectionImage {
+  width: 45%;
+}
+.sectionInformation > h1 {
+  font-size: 3rem;
+}
+.heading {
+  position: absolute;
+  top: 3.3rem;
+}
+.sectionInformation > p {
+  position: absolute;
+  top: 10rem;
+  font-size: 1.1rem;
+  font-family: "roboto", sans-serif;
+  width: 60%;
+  padding-left: 1.5rem;
+  border-left: 1px solid black;
+}
+.buttonsection {
+  position: absolute;
+  top: 16rem;
+}
+.buttonsection > button {
+  padding: 0.8rem 1rem;
+  color: black;
+  margin-right: 2.3rem;
+  font-weight: 600;
+  background-color: white;
+  border: 1px solid black;
+}
+.buttonsection > button:hover {
+  background-color: var(--accent-color);
+  color: white;
+}
+.sectionInformation > img {
+  position: absolute;
+  top: 13rem;
+  right: 3rem;
+}
+.sectionImage {
+  position: relative;
+}
+#one {
+  top: 2rem;
+  left: 5rem;
+}
+#two {
+  top: 1rem;
+  left: 5rem;
+
+}
+#three {
+  top: 1.9rem;
+  left: 8rem;
+
+  border-radius: 25%;
+}
+.imageone {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.imagetwo {
+  position: absolute;
+  top: 15rem;
+  right: 0;
+}
+.imagethree {
+  position: absolute;
+  bottom: 1.5rem;
+}
+.mainimage > img {
+  position: absolute;
+  height: 19rem;
+  top: 0.2rem;
+  right: 3rem;
+}
+/* footer */
+.footerSection {
+  color: white;
+  background-color: #2a04a8;
+}
+.footerinformation {
+  padding: 1rem 0;
+}
+
+.footerinformation > h1 {
+  width: 15rem;
+}
+#details {
+  margin-left: 5rem;
+}
+.columnone {
+  padding: 3.2rem 2rem;
+}
+.columnone > h4 {
+  font-size: 1.2rem;
+}
+.columnone > p {
+  font-size: 0.8rem;
+}
+.columnone > img {
+  background-color: #009dffe4;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+.columntwo > img {
+  background-color: var(--accent-color);
+}
+.columnthree > img {
+  background-color: #2d0080;
+}
